@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+		<link rel="stylesheet" href="../../css/styles.css" type="text/css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       
+        <form id="RechercheAddress">
+            <div class="form-group">
+                
+                <label >Recherche address: </label>
+              <input type="text" class="form-control" name="fname" placeholder="address">
+			   
+            </div>
+        </form> 
+        <button class="btn btn-default" onclick="RechercheAddress()">Submit</button>
+        <form id="RechercheTransaction">
+            <div class="form-group">
+                
+                <label >Recherche Transaction: </label>
+              <input type="text" class="form-control" name="fname" placeholder="transaction">
+			   
+            </div>
+        </form> 
+        <button class="btn btn-default" onclick="RechercheTransaction()">Submit</button>
+        <form id="RechercheBlockHash">
+            <div class="form-group">
+                
+                <label >Recherche Block Hash: </label>
+              <input type="text" class="form-control" name="fname" placeholder="block hash">
+			  
+            </div>
+        </form> 
+        <button class="btn btn-default" onclick="RechercheBlockHash()">Submit</button>
+        <form id="RechercheBlockIndex">
+            <div class="form-group">
+                
+                <label >Recherche Block Index: </label>
+              <input type="text" class="form-control" name="fname" placeholder="block index">
+
+            </div>
+        </form> 
+        <button class="btn btn-default" onclick="RechercheBlockIndex()">Submit</button>
+         <!-- 
+        <pre>
+            <code id="Recherche" class="json kljs"></code>
+        </pre>
+ -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../../js/custom.js"></script>
+    </body>
+</html>
